@@ -25,7 +25,7 @@ class Transfer
       
   def reject_transfer
     self.status = "rejected"
-    "Transaction rejected"
+    "Transaction rejected. Please"
     
   end
 end
