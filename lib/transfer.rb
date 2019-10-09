@@ -10,5 +10,9 @@ class Transfer
   end
   
   def valid? 
+    sender.valid? @@ reciever.valid?
+  end
+  
+  def execute_transaction
     
 end
