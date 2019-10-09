@@ -13,7 +13,7 @@ attr_accessor :balance, :status
   end
   
   def display_balance
-    self.balance
+    "Your balance is $#{balance}."
   end
   
   
