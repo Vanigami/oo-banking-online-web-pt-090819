@@ -18,7 +18,7 @@ class Transfer
       sender.balance -= amount
       reciever.balance += amount
     else
-      reject_transaction
+      reject_transfer
     end
   end
       
