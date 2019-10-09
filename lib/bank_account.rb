@@ -6,8 +6,9 @@ attr_accessor :balance, :status
     @name = name 
     @status = "open"
     @balance = "$1000"
-end
+  end
 
-def 
+  def deposit
+    
 
 end
