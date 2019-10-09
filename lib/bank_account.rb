@@ -8,7 +8,8 @@ attr_accessor :balance, :status
     @balance = "$1000"
   end
 
-  def deposit
+  def deposit(deposit_amount)
+    
     
 
 end
