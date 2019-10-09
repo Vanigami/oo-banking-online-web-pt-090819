@@ -23,4 +23,6 @@ class Transfer
     end
   end
       
+  def reject_transfer
+    
 end
